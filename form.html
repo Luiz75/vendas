@@ -32,9 +32,35 @@
         <div >
         <div class="dsmovies-card">
             <img src="https://www.themoviedb.org/t/p/w500_and_h282_face/gIMm9NfQe7l4gNG1KpNz4zNrYTX.jpg" alt="O Halloween de Madea">
-             <div class ="dsmovies-card-description">
+             <div class ="dsmovies-form-description">
                  <h3>O Halloween de Madea </h3>
-                 <a class="dsmovies-btn" href="vendas.html">Cancelar</a>
+                 <form class="dsmovies-form">
+                 <div class = "form-group dsmovies-form-group">
+                     <label for="email">Informe seu email</label>
+                     <input class="form-control" type="email" id="email">
+
+                 </div>
+                 <div class="form-group dsmovies-form-group">
+                     <label for="score">Informe sua Avaliação</label>
+                     <select class="form-control" name="score" id="score">
+                     <option value="1">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                     <option value="5">5</option>
+                   </select> 
+                     
+                     
+
+
+                 </div>
+                 <div class="dsmovies-form-btn-container">
+                     <button  class="dsmovies-btn" type="submit">Salvar</button>
+                     <a class="dsmovies-btn" href="vendas.html">Cancelar</a>
+                 </div>
+
+                 </form>
+                 
                     </div>
                 </div>
         </div>
